@@ -16,7 +16,8 @@ export default {
       name: 'helpers',
       title: 'Helpers',
       type: 'reference',
-      to: [{ type: 'helper'}],
+      type: 'array',
+      of: [{type:'reference', to: [{type:'helper'}]}],
       validation: Rule => Rule.required()
     }
   ],
