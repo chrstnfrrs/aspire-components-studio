@@ -11,6 +11,18 @@ export default {
       title: 'Name',
       type: 'string',
       validation: Rule => Rule.required()
-    }
+    },
+    {
+      name: 'property',
+      title: 'CSS Property',
+      type: 'string',
+      validation: Rule => Rule.required()
+    },
+    {
+      name: 'value',
+      title: 'CSS Value',
+      type: 'string',
+      validation: Rule => Rule.required()
+    },
   ],
 }
