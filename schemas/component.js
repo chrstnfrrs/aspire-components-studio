@@ -40,8 +40,8 @@ export default {
     {
       name: 'props',
       title: 'Props',
-      type: 'reference',
-      to: [{ type: 'prop'}],
+      type: 'array',
+      of: [{type:'reference', to: [{type:'prop'}]}],
       validation: Rule => Rule.required()
     }
   ],
