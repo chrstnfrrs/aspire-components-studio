@@ -15,8 +15,8 @@ export default {
     {
       name: 'classes',
       title: 'Classes',
-      type: 'reference',
-      to: [{ type: 'class'}],
+      type: 'array',
+      of: [{type:'reference', to: [{type:'class'}]}],
       validation: Rule => Rule.required()
     }
   ],
