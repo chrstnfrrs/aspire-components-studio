@@ -3,7 +3,7 @@ import schemaTypes from 'all:part:@sanity/base/schema-type'
 
 import classes from './class'
 import component from './component'
-import helper from './helper'
+import functionType from './function'
 import link from './link'
 import links from './links'
 import linkOptions from './linkOptions'
@@ -17,7 +17,7 @@ export default createSchema({
   types: schemaTypes.concat([
     classes,
     component,
-    helper,
+    functionType,
     link,
     links,
     linkOptions,
