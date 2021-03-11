@@ -13,11 +13,11 @@ export default {
       validation: Rule => Rule.required()
     },
     {
-      name: 'helpers',
-      title: 'Helpers',
+      name: 'function',
+      title: 'Functions',
       type: 'reference',
       type: 'array',
-      of: [{type:'reference', to: [{type:'helper'}]}],
+      of: [{type:'reference', to: [{type:'function'}]}],
       validation: Rule => Rule.required()
     }
   ],
